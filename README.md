@@ -18,7 +18,7 @@ This repository contains my custom final project for the SE232: Machine Learning
 * poly_regression_train.ipynb - contains training for linear and cubic regression models for comparison
 * Results/ - contains checkpoints, training outputs, and saved weights for the U-Net *
 
-dataset.mat and Results/ directory can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1U5bF-VX-6mN9UPSLozbwqIWhyRJYIvuD?usp=drive_link) due to upload size limitations.  
+*dataset.mat and Results/ directory can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1U5bF-VX-6mN9UPSLozbwqIWhyRJYIvuD?usp=drive_link) due to upload size limitations.  
 
 ## Requirements:
 * Python 3.10
