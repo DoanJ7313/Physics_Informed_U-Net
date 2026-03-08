@@ -31,13 +31,13 @@ This repository contains my custom final project for the SE232: Machine Learning
 
 Install dependencies:
 ```
-# ! pip uninstall torch torchvision torchaudio -y
-# ! pip install torch --index-url https://download.pytorch.org/whl/cu130
-# ! pip install numpy
-# ! pip install scikit-learn
-# ! pip install scipy
-# ! pip install matplotlib
-# ! pip install pandas
+! pip uninstall torch torchvision torchaudio -y
+! pip install torch --index-url https://download.pytorch.org/whl/cu130
+! pip install numpy
+! pip install scikit-learn
+! pip install scipy
+! pip install matplotlib
+! pip install pandas
 ```
 
 ## Running the code:
