@@ -1,6 +1,10 @@
 # Physics_Informed_U-Net
 This repository contains my custom final project for the SE232: Machine Learning in Computational Mechanics course. The objective was to train a U-Net to predict displacement fields in a 2D elastic plate subjected to different load conditions. The model was trained on RKPM-generated data and evaluated using both mean squared error (MSE) and an energy-based residual loss formulation.
 
+![Displacement Contour](results/contour_sample_3.png)
+
+![Deformed Shape](results/deform_sample_3.png)
+
 ## Contents:
 * dataset.mat - displacement fields, traction fields, prescribed displacements, material constitutive matrix, RKPM shape functions, and shape function gradients
 * unet_main.py - used to spawn training process
