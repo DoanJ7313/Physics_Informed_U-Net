@@ -16,7 +16,7 @@ This repository contains my custom final project for the SE232: Machine Learning
 * plots.py - contains functions for plotting main evaluation figures
 * unet_train.ipynb - calls training functions and visualizes all training and testing results
 * poly_regression_train.ipynb - contains training for linear and cubic regression models for comparison
-* Results/ - contains checkpoints, training outputs, and saved weights for the U-Net
+* Results/ - contains checkpoints, training outputs, and saved weights for the U-Net (unzip this)
 
 ## Requirements:
 * Python 3.10
