@@ -32,8 +32,8 @@ class UpConvBlock(nn.Module):
         self.conv1 = nn.Conv2d(in_channels, out_channels, kernel_size=3, padding=1, bias=False)
         self.conv2 = nn.Conv2d(out_channels, out_channels, kernel_size=3, padding=1, bias=False)
         
-        self.norm1 = nn.GroupNorm(num_groups=8, num_channels=out_channels, affine=True)
-        self.norm2 = nn.GroupNorm(num_groups=8, num_channels=out_channels, affine=True)
+        self.norm1 = nn.InstanceNorm2d(out_channels)
+        self.norm2 = nn.InstanceNorm2d(out_channels)
     def forward(self, x):
         out = self.conv1(x)
         out = self.norm1(out)
