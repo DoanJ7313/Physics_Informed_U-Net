@@ -58,7 +58,7 @@ The dataset was generated using a previously developed RKPM solver script writte
 * Mean Squared Error (MSE)
 * Energy Residual Loss
 
-Performance:
+Performance: (Updated 3/12/26)
 
 | Model             | MSE      | Energy |
 |------------------|-----------|----------|
